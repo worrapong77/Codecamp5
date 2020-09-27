@@ -8,7 +8,7 @@
 2. [gitHub](https://github.com/worrapong77)
 
 ---
-|_CodeCamp_|
-**Thailang**|
+
+_CodeCamp_**Thailang**
 
 ---
