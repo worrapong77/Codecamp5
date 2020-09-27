@@ -43,4 +43,5 @@ false - true + false - true + false; // -2
 true === false; //false
 true != true; //false
 
-// 3. สร้าง String ที่มีค่า "Hello, It's me. "Mario"."
+// 3. สร้าง String ที่มีค่า "Hello, It's me. "Mario".)"
+string("Hello, It's me.\"Mario\".)")
