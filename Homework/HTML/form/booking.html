@@ -8,7 +8,7 @@
 <body>
   <pre>
   <form>
-    Fiying form            <!---->   To
+    Fiying form            <!----> To
     <select>   
       <option value="DMK">Bangkok(Don Mueang)</option>  
       <option value="BFV">Buri Ram</option>
@@ -16,7 +16,7 @@
       <option value="CEI">Chiang Rai</option>
       <option value="NNT">Nan</option>
       <option value="LPT">Lampang</option>
-    </select>  <!---->   <select>
+    </select>  <!----> <select>
       <option value="DMK">Bangkok(Don Mueang)</option>  
       <option value="BFV">Buri Ram</option>
       <option value="CNX">Chiang Mai</option>
@@ -26,12 +26,22 @@
 
     </select>
     
-    <label>Departing</label>                 <label>Returning</label>
-    <input type="date" id = "from">      <input type="date" id="to">
+    <label>Departing</label>               <label>Returning</label>
+    <input type="date" id = "from">    <input type="date" id="to">
 
-    <label>Adult</label>
+    <label>Adult</label>       <label>Child</label>       <label>Infant</label>    <label>Currency</label>
+    <input type="number" id="Adult" min="1" max="99999" placeholder="1">    <input type="number" id="Child"min="1" max="99999" placeholder="1">    <input type="number" id="Infant"min="1" max="99999" placeholder="1">   <select>
+      <option value="thai">Bat</option>  
+      <option value="Dollar">Dollar</option>
+      <option value="Pound">Pound</option>
+      <option value="Yan">Yan</option>
+      <option value="Won">Won</option>
+      <option value="Euro">Euro</option>
+    </select>
     
- </form>
+    
+    <input type="submit" id="submit">
+  </form>
   </pre>
 </body>
 </html>

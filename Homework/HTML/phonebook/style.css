@@ -1,0 +1,20 @@
+
+table{
+     border: 1px dashed ;
+     border-collapse: collapse;
+    width: 95%;
+}
+tr{
+   
+}
+td{
+     border:1px dashed ;
+     border-collapse: collapse;
+}
+th{
+    border: 1px dashed ;
+    border-collapse: collapse;
+}
+div{
+    color: red;
+}
